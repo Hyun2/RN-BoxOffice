@@ -21,6 +21,12 @@ module.exports = {
     "plugins": [
         "react"
     ],
-    "rules": {
+    "eslintConfig": {
+        "extends": [
+            "prettier"
+        ],
+        "rules": {
+            "react/display-name": "off"
+        }
     }
 };
